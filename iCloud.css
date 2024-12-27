@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    color: white;
+    font-size: 25px;
+}
+.fa-apple{
+    font-size: 25px;
+    color: white;
+}
+.fa-arrow-right-to-bracket{
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: right;
+
+}
+.container{
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 5px 5px 20px  rgb(0, 0, 0);    
+    border-radius: 15px;
+}
+    
+.logo{
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    padding-top: 100px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.input-field{
+    width: 75%;
+    padding: 10px;
+    margin-left: 69px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgb(43, 43, 43);
+    justify-content: center;
+    color: white;
+}
+.checkboxbox{
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-left: 235px;
+}
+.checkbox{
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    justify-content: center;
+}
+.new-account{
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: rgb(0, 110, 255);
+    border: none;
+    margin-top: 100px ;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 250px;
+}
+.new-account:hover{
+    text-decoration: underline;
+}
+.create{
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: rgb(0, 110, 253);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 238px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+.create:hover{
+    text-decoration: underline;
+}

